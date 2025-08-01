@@ -1,0 +1,148 @@
+[2025-08-01 07:56:04.369] Changing working directory from C:\Users\lucygramley to c:\Users\lucygramley\Downloads\ai_test_repos\ava-fork
+[2025-08-01 07:57:02.531] Updating 7 packages at c:\Users\lucygramley\Downloads\ai_test_repos\ava-fork
+[2025-08-01 07:57:37.067] Analyzing project at: c:\Users\lucygramley\Downloads\ai_test_repos\ava-fork
+[2025-08-01 07:57:37.070] Analyzing repository structure...
+[2025-08-01 07:57:37.465] No monorepo structure detected
+[2025-08-01 07:57:37.468] Generating installation commands...
+[2025-08-01 07:57:43.677] Found 9 package installation tasks
+[2025-08-01 07:57:43.682] Installing packages...
+[2025-08-01 07:57:50.213] Looking for local TypeScript installation...
+[2025-08-01 07:57:50.220] Using local TypeScript compiler at: c:\Users\lucygramley\Downloads\ai_test_repos\ava-fork\node_modules\typescript\lib\tsc.js
+[2025-08-01 07:57:50.224] Building project to collect baseline errors...
+[2025-08-01 07:58:14.389] Found 0 errors in initial build
+[2025-08-01 08:00:11.233] Updating packages in the following order:
+ @vercel/nft, picomatch, yargs, @sindresorhus/tsconfig, @types/node, expect, xo
+[2025-08-01 08:00:11.565] Using VS Code provided token for Kusto authentication
+[2025-08-01 08:00:11.646] Updating package group (1/7): @vercel/nft
+[2025-08-01 08:00:21.758] Updating @vercel/nft from ^0.29.4 to ^0.30.0
+[2025-08-01 08:00:32.111] No new errors found after updating @vercel/nft.
+[2025-08-01 08:00:32.114] Modified files while updating package(s) @vercel/nft: 
+package.json
+package-lock.json
+[2025-08-01 08:00:32.119] Deleted temp directory for PackageUpdater.
+[2025-08-01 08:00:32.126] Package group @vercel/nft completed in 00:00:20.
+Successfully upgraded 1 packages: @vercel/nft
+[2025-08-01 08:00:32.130] Using VS Code provided token for Kusto authentication
+[2025-08-01 08:00:32.133] Updating package group (2/7): picomatch
+[2025-08-01 08:00:41.765] Updating picomatch from ^4.0.2 to ^4.0.3
+[2025-08-01 08:00:52.103] No new errors found after updating picomatch.
+[2025-08-01 08:00:52.107] Modified files while updating package(s) picomatch: 
+package.json
+package-lock.json
+[2025-08-01 08:00:52.112] Deleted temp directory for PackageUpdater.
+[2025-08-01 08:00:52.116] Package group picomatch completed in 00:00:19.
+Successfully upgraded 1 packages: picomatch
+[2025-08-01 08:00:52.119] Using VS Code provided token for Kusto authentication
+[2025-08-01 08:00:52.123] Updating package group (3/7): yargs
+[2025-08-01 08:01:02.473] Updating yargs from ^17.7.2 to ^18.0.0
+[2025-08-01 08:01:13.069] No new errors found after updating yargs.
+[2025-08-01 08:01:13.073] Modified files while updating package(s) yargs: 
+package.json
+package-lock.json
+[2025-08-01 08:01:13.077] Deleted temp directory for PackageUpdater.
+[2025-08-01 08:01:13.081] Package group yargs completed in 00:00:20.
+Successfully upgraded 1 packages: yargs
+[2025-08-01 08:01:13.084] Using VS Code provided token for Kusto authentication
+[2025-08-01 08:01:13.087] Updating package group (4/7): @sindresorhus/tsconfig
+[2025-08-01 08:01:22.323] Updating @sindresorhus/tsconfig from ^5.1.1 to ^7.0.0
+[2025-08-01 08:01:36.199] Found 1 new errors after updating @sindresorhus/tsconfig.
+[2025-08-01 08:01:36.301] Executing query: Errors
+                         | where PackageName == '@sindresorhus/tsconfig' and TargetVersion == '7'
+[2025-08-01 08:01:39.249] Kusto query failed: Unauthorized (401-Unauthorized): . This normally represents a permanent error, and retrying is unlikely to help.
+Error details:
+DataSource='https://typescripterrors.eastus2.kusto.windows.net/v1/rest/query',
+DatabaseName='typescripterrors',
+ClientRequestId='KD2RunQuery;047894b6-ff39-49a7-aff1-2783272c7401',
+ActivityId='803d0009-3745-4b80-9227-09387c3c8650,
+Timestamp='2025-08-01T15:01:39.1602159Z'.
+[2025-08-01 08:01:39.251] Authentication error detected. The VS Code token may have expired (30-day lifetime). Please restart VS Code or refresh the Kusto token using the 'JS/TS Upgrade: Refresh Kusto Authentication Token' command.
+[2025-08-01 08:01:39.254] No fixes found for package @sindresorhus/tsconfig version 7
+[2025-08-01 08:01:39.264] 1 errors left after applying known fixes. Attempting to resolve with AI...
+[2025-08-01 08:01:39.271] Successfully resolved all new build errors after updating @sindresorhus/tsconfig.
+[2025-08-01 08:01:39.276] Modified files while updating package(s) @sindresorhus/tsconfig: 
+package.json
+package-lock.json
+[2025-08-01 08:01:39.281] Deleted temp directory for PackageUpdater.
+[2025-08-01 08:01:39.284] Package group @sindresorhus/tsconfig completed in 00:00:26.
+Successfully upgraded 1 packages: @sindresorhus/tsconfig
+[2025-08-01 08:01:39.287] Using VS Code provided token for Kusto authentication
+[2025-08-01 08:01:39.290] Updating package group (5/7): @types/node
+[2025-08-01 08:01:53.726] Updating @types/node from ^22.16.3 to ^24.1.0
+[2025-08-01 08:02:08.921] Found 1 new errors after updating @types/node.
+[2025-08-01 08:02:08.923] Executing query: Errors
+                         | where PackageName == '@types/node' and TargetVersion == '24'
+[2025-08-01 08:02:09.545] Kusto query failed: Unauthorized (401-Unauthorized): . This normally represents a permanent error, and retrying is unlikely to help.
+Error details:
+DataSource='https://typescripterrors.eastus2.kusto.windows.net/v1/rest/query',
+DatabaseName='typescripterrors',
+ClientRequestId='KD2RunQuery;7c23fcfc-3960-48e9-85a3-b23d9b0c8f9c',
+ActivityId='acabe810-0fc7-45c2-ab66-fb9e6561dca8,
+Timestamp='2025-08-01T15:02:09.5429064Z'.
+[2025-08-01 08:02:09.548] Authentication error detected. The VS Code token may have expired (30-day lifetime). Please restart VS Code or refresh the Kusto token using the 'JS/TS Upgrade: Refresh Kusto Authentication Token' command.
+[2025-08-01 08:02:09.549] No fixes found for package @types/node version 24
+[2025-08-01 08:02:09.554] 1 errors left after applying known fixes. Attempting to resolve with AI...
+[2025-08-01 08:02:09.559] Successfully resolved all new build errors after updating @types/node.
+[2025-08-01 08:02:09.567] Modified files while updating package(s) @types/node: 
+package.json
+package-lock.json
+[2025-08-01 08:02:09.572] Deleted temp directory for PackageUpdater.
+[2025-08-01 08:02:09.585] Package group @types/node completed in 00:00:30.
+Successfully upgraded 1 packages: @types/node
+[2025-08-01 08:02:09.588] Using VS Code provided token for Kusto authentication
+[2025-08-01 08:02:09.593] Updating package group (6/7): expect
+[2025-08-01 08:02:27.347] Updating expect from ^30.0.4 to ^30.0.5
+[2025-08-01 08:02:42.507] Found 1 new errors after updating expect.
+[2025-08-01 08:02:42.510] Executing query: Errors
+                         | where PackageName == 'expect' and TargetVersion == '30'
+[2025-08-01 08:02:43.148] Kusto query failed: Unauthorized (401-Unauthorized): . This normally represents a permanent error, and retrying is unlikely to help.
+Error details:
+DataSource='https://typescripterrors.eastus2.kusto.windows.net/v1/rest/query',
+DatabaseName='typescripterrors',
+ClientRequestId='KD2RunQuery;6c4a3a98-9252-4d02-8ef4-0fd19d94ce2b',
+ActivityId='0b7351f0-5b29-4ea5-b9d8-f4e3c0c53faf,
+Timestamp='2025-08-01T15:02:43.1440303Z'.
+[2025-08-01 08:02:43.152] Authentication error detected. The VS Code token may have expired (30-day lifetime). Please restart VS Code or refresh the Kusto token using the 'JS/TS Upgrade: Refresh Kusto Authentication Token' command.
+[2025-08-01 08:02:43.155] No fixes found for package expect version 30
+[2025-08-01 08:02:43.161] 1 errors left after applying known fixes. Attempting to resolve with AI...
+[2025-08-01 08:02:43.167] Successfully resolved all new build errors after updating expect.
+[2025-08-01 08:02:43.171] Modified files while updating package(s) expect: 
+package.json
+package-lock.json
+[2025-08-01 08:02:43.176] Deleted temp directory for PackageUpdater.
+[2025-08-01 08:02:43.180] Package group expect completed in 00:00:33.
+Successfully upgraded 1 packages: expect
+[2025-08-01 08:02:43.184] Using VS Code provided token for Kusto authentication
+[2025-08-01 08:02:43.188] Updating package group (7/7): xo
+[2025-08-01 08:03:03.324] Updating xo from ^1.1.1 to ^1.2.1
+[2025-08-01 08:03:17.605] Found 1 new errors after updating xo.
+[2025-08-01 08:03:17.609] Executing query: Errors
+                         | where PackageName == 'xo' and TargetVersion == '1'
+[2025-08-01 08:03:18.218] Kusto query failed: Unauthorized (401-Unauthorized): . This normally represents a permanent error, and retrying is unlikely to help.
+Error details:
+DataSource='https://typescripterrors.eastus2.kusto.windows.net/v1/rest/query',
+DatabaseName='typescripterrors',
+ClientRequestId='KD2RunQuery;a65df981-390f-4796-bfa9-8098413f065d',
+ActivityId='1f097f94-e789-411d-9b72-b0a4e735e72e,
+Timestamp='2025-08-01T15:03:18.2135740Z'.
+[2025-08-01 08:03:18.220] Authentication error detected. The VS Code token may have expired (30-day lifetime). Please restart VS Code or refresh the Kusto token using the 'JS/TS Upgrade: Refresh Kusto Authentication Token' command.
+[2025-08-01 08:03:18.222] No fixes found for package xo version 1
+[2025-08-01 08:03:18.227] 1 errors left after applying known fixes. Attempting to resolve with AI...
+[2025-08-01 08:03:18.232] Successfully resolved all new build errors after updating xo.
+[2025-08-01 08:03:18.236] Modified files while updating package(s) xo: 
+package.json
+package-lock.json
+[2025-08-01 08:03:18.241] Deleted temp directory for PackageUpdater.
+[2025-08-01 08:03:18.244] Package group xo completed in 00:00:35.
+Successfully upgraded 1 packages: xo
+[2025-08-01 08:03:18.248] All packages updated.
+[2025-08-01 08:03:18.251] Updater completed in 00:07:13.
+Successfully upgraded 7 packages.
+Partially upgraded 0 packages.
+Unable to upgrade 0 packages.
+Total packages available for upgrade: 7
+[2025-08-01 08:03:18.256] === Token Usage Summary ===
+Total API Calls: 0
+Total Tokens: 0 (Prompt: 0, Completion: 0)
+Usage by Model:
+
+[2025-08-01 08:03:18.260] Report written to c:\Users\lucygramley\.vscode-insiders\extensions\emilyfischer.jsts-upgrade-extension-0.0.1\dist\updates\logs\ava-fork_2025-08-01_07-56-04.txt
