@@ -1,5 +1,4 @@
 import test from 'ava';
-
-test('foo.js', t => {
-	t.pass();
+test('typescript files must not be selected', t => {
+    t.fail();
 });

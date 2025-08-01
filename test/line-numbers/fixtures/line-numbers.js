@@ -1,21 +1,21 @@
 import test from 'ava';
-test('unicorn', function (t) {
+test('unicorn', t => {
     t.pass();
 });
-test('rainbow', function (t) {
+test('rainbow', t => {
     t.pass();
 });
-test.serial('cat', function (t) {
+test.serial('cat', t => {
     t.pass();
 });
 test.todo('dog');
-test('sun', function (t) { return t.pass(); });
-test('moon', function (t) {
+// eslint-disable-next-line @stylistic/max-statements-per-line
+test('sun', t => t.pass());
+test('moon', t => {
     t.pass();
 });
-(function () {
-    test('nested call', function (t) {
+(() => {
+    test('nested call', t => {
         t.pass();
     });
 })();
-//# sourceMappingURL=line-numbers.js.map

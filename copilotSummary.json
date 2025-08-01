@@ -1,0 +1,92 @@
+{
+  "packages_upgraded": [
+    {
+      "name": "@vercel/nft",
+      "from": "^0.29.4",
+      "to": "^0.30.0",
+      "duration": "00:00:20"
+    },
+    {
+      "name": "picomatch",
+      "from": "^4.0.2",
+      "to": "^4.0.3",
+      "duration": "00:00:19"
+    },
+    {
+      "name": "yargs",
+      "from": "^17.7.2",
+      "to": "^18.0.0",
+      "duration": "00:00:20"
+    },
+    {
+      "name": "@sindresorhus/tsconfig",
+      "from": "^5.1.1",
+      "to": "^7.0.0",
+      "duration": "00:00:26"
+    },
+    {
+      "name": "@types/node",
+      "from": "^22.16.3",
+      "to": "^24.1.0",
+      "duration": "00:00:30"
+    },
+    {
+      "name": "expect",
+      "from": "^30.0.4",
+      "to": "^30.0.5",
+      "duration": "00:00:33"
+    },
+    {
+      "name": "xo",
+      "from": "^1.1.1",
+      "to": "^1.2.1",
+      "duration": "00:00:35"
+    }
+  ],
+  "errors_encountered_and_resolved": [
+    {
+      "package": "@sindresorhus/tsconfig",
+      "errors_found": 1,
+      "resolution_method": "AI assisted resolution after known fixes failed"
+    },
+    {
+      "package": "@types/node",
+      "errors_found": 1,
+      "resolution_method": "AI assisted resolution after known fixes failed"
+    },
+    {
+      "package": "expect",
+      "errors_found": 1,
+      "resolution_method": "AI assisted resolution after known fixes failed"
+    },
+    {
+      "package": "xo",
+      "errors_found": 1,
+      "resolution_method": "AI assisted resolution after known fixes failed"
+    }
+  ],
+  "errors_left_unresolved": [],
+  "ai_usage": {
+    "total_api_calls": 0,
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "usage_by_model": "No specific model usage recorded",
+    "note": "AI was mentioned as being used to resolve 4 build errors but no token usage was recorded, suggesting local AI or cached solutions were used"
+  },
+  "overall_summary": {
+    "total_execution_time": "00:07:13",
+    "packages_successfully_upgraded": 7,
+    "packages_partially_upgraded": 0,
+    "packages_unable_to_upgrade": 0,
+    "total_packages_available_for_upgrade": 7,
+    "baseline_errors": 0,
+    "new_errors_found": 4,
+    "new_errors_resolved": 4,
+    "files_modified": ["package.json", "package-lock.json"],
+    "project_location": "c:\\Users\\lucygramley\\Downloads\\ai_test_repos\\ava-fork",
+    "typescript_compiler": "Local TypeScript compiler used",
+    "monorepo_detected": false,
+    "success_rate": "100% - All available package updates completed successfully"
+  }
+}
